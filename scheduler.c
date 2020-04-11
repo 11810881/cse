@@ -8,3 +8,8 @@ int main()
     scanf("%d",&n);
     printf("\n Enter burst time for each process:-");
     for(i=0;i<n;i++)
+ {
+        printf("\nBurst time of process P%d:",i);
+        scanf("%d",&bt[i]);
+        p[i]=i;
+    }
