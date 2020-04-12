@@ -29,3 +29,12 @@ int main()
             }
         }
     }
+     wt[0]=0;
+    for(i=1;i<n;i++)
+    {
+        wt[i]=wt[i-1]+bt[i-1];
+    }
+    for(i=0;i<n;i++)
+    {
+        sum+=wt[i];
+    }
