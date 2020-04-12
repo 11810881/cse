@@ -38,3 +38,14 @@ int main()
     {
         sum+=wt[i];
     }
+     avg=(float)sum/n;
+    printf("\n Waiting time for each process:-");
+    for(i=0;i<n;i++)
+    {
+        printf("\n Waiting time for process P%d is %d sec.",p[i],wt[i]);
+       
+    }
+    printf("\n Average waiting time is %f sec.",avg);
+    getch();
+    return 0;
+}
